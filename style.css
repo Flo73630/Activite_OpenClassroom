@@ -1,0 +1,141 @@
+﻿body
+{
+	font-family: 'open_sansbold', Arial, serif;
+}
+
+nav
+{
+    background-image: url("images/fond.jpeg");
+    background-attachment: fixed; 
+	width: 50px;
+	padding: 20px;
+	border-radius: 2px;
+	height: 1000px;
+	float: left;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 900px)
+{
+    nav
+	{
+	display: none;
+	}
+}
+
+header
+{
+	margin: 10px;
+	margin-left: 120px;
+	width: 90%;
+	height: 200px;
+	border: 2px black solid;
+}
+
+@media screen and (max-width: 900px)
+{
+    header
+	{
+	width: auto;
+	margin: auto;
+	height: auto;
+	border: 2px black solid;
+	}
+}
+
+section
+{
+	display:inline-block;
+	margin: 5px;
+}
+
+
+
+.experience
+{
+	width: 35%;
+	vertical-align: top;
+}
+
+.formations
+{
+	width: 35%;
+	vertical-align: top;
+}
+
+.competences
+{
+	width: 15%;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 900px)
+{
+    section
+	{
+	display:block;
+	margin: 5px;
+	}
+	
+	.experience
+	{
+	width: auto;
+	}
+
+	.formations
+	{
+	width: auto;
+	}
+
+	.competences
+	{
+	width: auto;
+	}
+}
+
+h1
+{
+text-align : center;
+}
+
+.citation
+{
+text-align : center;
+font-size: large;
+}
+
+img
+{
+float: right;
+border: 3px black double;
+}
+
+h2
+{
+background-color: rgba(149,179,215,1);
+color: white;
+text-shadow: 2px 2px 4px black;
+}
+
+strong
+{
+text-decoration: underline;
+}
+
+ul
+{
+font-size: large;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('polices/OpenSans-Bold-webfont.eot');
+    src: url('polices/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/OpenSans-Bold-webfont.woff') format('woff'),
+         url('polices/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('polices/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
